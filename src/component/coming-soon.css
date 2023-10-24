@@ -1,0 +1,58 @@
+
+.base{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("C:/Users/REKHA GIRI/Desktop/new_git/Git-Hub-7daysBootcamp/coming-soon/public/background.png");
+    overflow: hidden;
+    text-align: center;
+    line-height: 10px;
+    }
+.main{
+    display: flex;
+    justify-content: center;
+}
+ .main img{
+    height: 15rem;
+    padding-top: 2.5rem;
+    border-radius: 10px;  
+ }
+h4{
+    color:rgb(241, 239, 239);
+    text-align: center;
+    font-size:1rem;
+    font-weight:400;
+    padding-top: 0px;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    
+}
+button{
+    background-color: transparent;
+    color:white;
+    padding: 0.5rem 0.5rem;
+    border: 0.5px solid white;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    /* color:whitesmoke; */
+    background-color:#6d15d8;
+    color: white;
+    border: none;
+}
+.launch-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap:10px;
+}
